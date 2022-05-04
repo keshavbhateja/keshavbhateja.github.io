@@ -19,25 +19,47 @@
 
 
   </script>
+  <style>
+    .background--custom {
+      background: linear-gradient(90deg, #A4BAF5, #D3E2DF, #4814DA);
+      background-size: 300% 300%;
+      animation: gradient 4s alternate infinite;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+    @keyframes gradient {
+      0% {
+        background-position: 0%;
+      }
+      100% {
+        background-position: 100%;
+      }
+    }
+ </style>
 </head>
 
 <body>
 
-  <div class="background--custom"></div>
+
 
   <div class="container">
 
     <header>
+      <div class="background--custom">
       <div class="wrapper">
         <h1>Keshav Bhateja</h1>
         <p class="bio">
-          I am junior majoring in Computer Science at Virginia Polytechnic Institute and State University.
+          I am a junior majoring in Computer Science at Virginia Polytechnic Institute and State University.
         </p>
         <div class="buttonBox">
           <a class="myButton" href="#projects">Go
           </a>
         </div>
       </div>
+    </div>
     </header>
 
     <main id="projects">
