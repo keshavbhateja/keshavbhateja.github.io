@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-y: hidden;
+
+}
+.container{
+  width: 100vw;
+  height: 97vh;
+  padding-bottom: 0rem;
+}
+.content-wrapper{
+  width: 100vw;
+  white-space: nowrap;
+}
+.section{
+  width: 100vw;
+  height: 100vh;
+  display: inline-block;
+  position: relative;
+}
+
+.section div{
+  font-size: 18px;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.buttonBox {
+  display: inline-block;
+  justify-content: center;
+  align-content: center;
+}
+
+.myButton {
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  color: #112B3C;
+  font-size: 14px;
+  padding: 10px 31px;
+  text-decoration: none;
+  margin: 1.69em auto;
+}
+
+.myButton:hover {
+  background-color: #C4DDFF;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+img {
+  width: 30vw;
+  height: 38vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.project {
+  font-size: 18px;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translateX(-70%) translateY(-50%);
+}
+
+.description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.56;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+  padding: 0px 10px 20px 20px;
+}
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #112B3C;
+  padding: 10px 0px 10px 10px;
+}
+a:link {
+  text-decoration: none;
+}
+footer div {
+  background-color:#8FCFEC;
+  width: 98%;
+  height: 1rem;
+  bottom: 0;
+  position: fixed;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  color: #112B3C;
+  padding: 10px 15px;
+}
+
+.copyright {
+  margin: auto 0;
+}
+
+.icons {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.icons a {
+  margin: 0 20px;
+  color: #000000;
+}
+
+.icons a:hover {
+  color: rgb(255, 255, 255, 0.8);
+}
+
+@media all and (max-width:700px) {
+  main {
+    grid-template-columns: 1fr;
+    margin: 39px auto;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  img {
+    height: 40vh;
+  }
+}
+::-webkit-scrollbar {
+  display:none;
+}
+
+
+
+/* .one{
+  background-color: #e67e22;
+}
+.two{
+  background-color: #e74c3c;
+}
+.three{
+  background-color: #2c3e50;
+}
+.four{
+  background-color: #27ae60;
+}
+.five{
+  background-color: #3498db;
+} */
