@@ -22,10 +22,11 @@ body{
 
 main {
   margin-left: 2rem;
-  padding: 5rem;
+  padding: 0;
 }
 
 body::-webkit-scrollbar{
+  height: 0.50rem;
   width:0.25rem;
 }
 
@@ -35,6 +36,47 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background: #6649b8;
+}
+
+.wrapper{
+  display: flex;
+  overflow-x: visible;
+  margin-left: 3rem;
+}
+section{
+
+  height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper section:nth-child(1){
+
+  background-color: #034064;
+  /* background: linear-gradient(to right, #034064, #63BC69); */
+
+}
+.wrapper section:nth-child(2){
+
+  background-color:  #FEFED3;
+
+}
+.wrapper section:nth-child(3){
+
+  background-color:  #FEFED3;
+
+}
+.wrapper section:nth-child(4){
+
+  background-color:  #FEFED3;
+
+}
+.wrapper section:nth-child(5){
+
+  background-color:  #FEFED3;
+
 }
 
 .navbar {
@@ -132,12 +174,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 #logo{
-  position: absolute;
-  top: 50%;
+  position: relative;
+  /* top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   animation-delay: 4s;
   animation: fill 0.5s ease forwards 2.5s;
+  padding-right: 10%;
 }
 
 #logo path:nth-child(1) {
@@ -197,7 +240,7 @@ body::-webkit-scrollbar-thumb {
   top: 0;
   left: 0;
   height: 200px;
-  width: 700px;
+  width: 55%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
